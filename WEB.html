@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeros Pasos en HTML</title>
+</head>
+<body>
+    <style>
+        .texto{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            margin: 50px;
+            width: 90%;
+        }
+        .titulos{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+    </style>
+    <h2 class=titulos>AÑADIR IMÁGENES</h2>
+    <p class="texto">De igual forma que podemos introducir texto, mediante etiquetas, podemos insertar imágenes de la forma que necesitemos. 
+        La principal etiqueta usada es &ltimg&gt. Dicha etiqueta está compuesta por diversas partes, las cuales detallaremos en la siguiente tabla;
+    </p>
+    <center>
+        <table class="texto" style=" width: 750px;text-align: center;" border="1">
+            <tr>
+                <th>ATRIBUTO</th>
+                <th>DESCRIPCIÓN</th>
+            </tr>
+            <tr>
+                <td>src</td>
+                <td>Se coloca la ruta o URL de la imagen a enlazar.</td>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td>Es el texto alternativo que saldrá en el caso de que la imagen no cargue.</td>
+            </tr>
+            <tr>
+                <td>width / height</td>
+                <td>Ajusta el tamaño de la imagen. en píxeles.</td>
+            </tr>
+        </table>
+    </center>
+
+    <h2 class="titulos">AÑADIR ENLACES</h2>
+    <p class="texto">Para colocar enlaces, existe la etiqueta &lta&gt. Con dicha etiqueta, colocamos un texto al cual se le añade un hipervínculo dado, los atributos de dicho texto vienen dado por; </p>
+    <center>
+        <table class="texto" style=" width: 750px;text-align: center;" border="1">
+            <tr>
+                <th>ATRIBUTO</th>
+                <th>DESCRIPCIÓN</th>
+            </tr>
+            <tr>
+                <td>href</td>
+                <td>La URL de destino del enlace. Obligatorio si quieres que funcione como enlace.</td>
+            </tr>
+            <tr>
+                <td>&gt[texto]&lt</td>
+                <td>Texto que aparecerá para hacer click.</td>
+            </tr>
+            </table>
+            <a href=""></a>
+    </center>   
+    <p class="texto">También podemos modiifcar como se ve nuestro enlace, como se ve antes de visitarlo, después de haberlo visitado, y mientras se le pasa el cursor por encima.
+        <br>
+        Para ello; debemos crear una "pseudoclase", donde estableceremos cómo se verán los enlaces de nuestra web.
+        <br>
+        Esta pseudoclase puede ir acompañada por un "style" o similar, que modifique color, tamaño, o fuente.
+    </p> 
+    <center>
+        <table class="texto" style="width: 750px; text-align: center;" border="1">
+            <tr>
+                <th>PSEUDOCLASE</th>
+                <th>ESTADO DEL ENLACE</th>
+            </tr>
+            <tr>
+                <td>:link</td>
+                <td>El enlace se encuentra en estado normal, es decir; no visitado.</td>
+            </tr>
+            <tr>
+                <td>:visited</td>
+                <td>El enlace ya ha sido visitado.</td>
+            </tr>
+            <tr>
+                <td>:hover</td>
+                <td>En cursor se encuentra sobre el enlace, epro sin hacer click.</td>
+            </tr>
+            <tr>
+                <td>:active</td>
+                <td>El enlace está activo, es decir, se está haciendo click sobre él.</td>
+            </tr>
+        </table>
+    </center>
+    <h2 class="titulos">FORMULARIOS</h2>
+    <P CLASS=" texto">Para tener una buena web, se puede precisar de un formulario, en el cual se soliciten datos.
+        <br>
+        Se utiliza la etiqueta &ltform&gt, dentro de ella, podemos usar diversos atributos, así como podemos modificar su tipo.
+        <br>
+        Se pueden cambiar su principal atributo &lttype&gt,tal que:    </p>
+        <CENTER>
+        <table class="texto" style="width: 750px; text-align: center;" border="1">
+            <tr>
+                <th>TIPO</th>
+                <TH>DESCRIPCIÓN</TH>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>Será undesplegable, dónde podemos seleccionar una opción</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>En esta ocasión, las opciones vienen marcadas por un botón que pulsar.</td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>Ahora tendremos un campo donde poder colocar un correo electrónico.</td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td>Campo para colocar un número de teléfono, con su formato.</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>Es un campo de texto oculto, es decir, no se ve nada al introducir texto.</td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>Permite subir un archivo o similar.</td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td>Botón que limpia los campos anteriores.</td>
+            </tr>
+
+        </table>
+    </CENTER>
+    <h2 class="titulos">TABLAS</h2>
+    <p class="texto">Como viene siendo obvio, en una página web viene a ser casi imprescindible. Para realizar una tabla usaremos la etiqueta &lt table &gt, la cual se puede modificar con las siguientes etiquetas;</P>  
+    <center>
+        <table class="texto" style="text-align: center; width: 750px;" border="1">
+            <tr>
+                <th> ETIQUETA </th>
+                <th>DESCRIPCIÓN</th>
+            </tr>
+            <tr>
+                <td> &lt tr &gt</td>
+                <td> Crea una nueva fila, dónde podremos colocar texto.</td>
+            </tr>
+            <tr>
+                <td> &lt th &gt</td>
+                <td>Sirve para crear una nueva columna, usando esta etiqueta, el texto se diferencia de los que se encuentran dentro de las demás celdas.</td>
+            </tr>
+            <tr>
+                <td> &lt td &gt</td>
+                <td>Sirve para crear otras celdas, que le introduciremos texto.</td>
+            </tr>
+        </table>
+    </center>
+    <p class="texto">Dentro de cada etiqueta, podemos colocar el texto que deseemos. Dentro del &lt th &gt que establece las columnas, debemos saber que; a más &lt th &gt colocamos, más columnas se "crean".</p>
+   
+</body>
+</html>
