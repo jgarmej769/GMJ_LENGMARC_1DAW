@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li, a{
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+a{
+    background-color: wheat;
+    color: black;
+}
+.menu{
+    height:100%;
+    width: 25%;
+}
+.desplegable:hover .contenido{
+    display: block;
+    position: fixed;
+}
+.contenido{
+display: none;
+
+}
+.degradado1{
+    background: linear-gradient(to bottom, red, blue);
+    width: 200px;
+    height: 200px;
+}
+
+.degradado2{
+    background: repeating-linear-gradient(45deg , yellow 0px,yellow 10px, red 10px, red 20px);
+    width: 200px;
+    height: 200px;
+}
+
+.degradado3{
+    background: repeating-radial-gradient(red 0px, red 35px, yellow 30px,yellow 70px);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.degradado4{
+    background: conic-gradient( red 45deg, yellow 90deg, blue 210deg);
+    width: 200px;
+    height: 200px;
+}
+.degradado5{
+    background: conic-gradient(red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg);
+    width: 200px;
+    height: 200px;
+
+}
+.degradado6{
+    background: repeating-conic-gradient(red 0deg, red 25deg, yellow 25deg, yellow 50deg, blue 50deg, blue 75deg);
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.encabezado{
+    text-align: center;
+    background-color: rgb(240, 248, 255, 65%);
+    padding: 15px;
+}
+.afuera{
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.degra1{
+    background: linear-gradient(to bottom, red, yellow);
+    width: 200px;
+    height: 200px;
+}
+
+.degra2{
+    background: linear-gradient(to bottom, red, yellow,
+     blue, green, pink);
+    width: 200px;
+    height: 200px;
+}
+
+.degra3{
+    background: linear-gradient(to bottom, rgba(255,0,0,1), rgba(155,10,0,0));
+    width: 200px;
+    height: 200px;
+}
+
+.degra4{
+    background: repeating-linear-gradient(to left, blue,30%, white, red );
+    width: 200px;
+    height: 200px;
+   
+}
+
+.degra5{
+    background: linear-gradient(45deg, rgb(248, 248, 248), green);
+    width: 200px;
+    height: 200px;
+}
+
+.degra6{
+    background: repeating-linear-gradient(45deg, green 0px,green 10px, white 10px, white 20px);
+    width: 200px;
+    height: 200px;
+}
+
+.degra7{
+    background: radial-gradient(blue, black);
+    width: 200px;
+    height: 200px;
+}
+/* con circle par aque sea siempre circular */
+.degra8{
+    background: radial-gradient( circle, blue, rgb(0, 0, 0));
+    width: 200px;
+    height: 200px;
+}
+
+
+.degra9{
+    background: radial-gradient( at 0, blue, rgb(4, 255, 0));
+    width: 200px;
+    height: 200px;
+}
+
+.degra10-1{
+    background: conic-gradient( red , yellow ,blue );
+    width: 200px;
+    height: 200px;
+}
+.degra10{
+    background: conic-gradient( red 45deg, yellow 90deg,blue 210deg);
+    width: 200px;
+    height: 200px;
+}
+
+.degra11{
+    background: conic-gradient( red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg);
+    width: 200px;
+    height: 200px;
+}
+
+.degra12{
+    background: conic-gradient(at 60% 45%, red,  yellow , blue , green);
+    width: 200px;
+    height: 200px;
+}
+
+.degra13{
+    background: repeating-conic-gradient(red, blue 10% );
+    width: 200px;
+    height: 200px;
+}
+
+.degra14{
+    background: repeating-conic-gradient(red 0%, red 2.78%,
+     blue 2.78%,blue 5.56%, yellow 5.56%, yellow 8.34% );
+    width: 200px;
+    height: 200px;
+}
