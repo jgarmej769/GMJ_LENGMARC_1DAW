@@ -58,7 +58,7 @@
                     De igual forma, mi principal muestra de trabajo la podrás encontrar en mi perfil de Instagram:
                 </p>
              <div class="contenedor-perfil">
-                    <a href="https://https://www.instagram.com/juangarciaph_/" class="boton-instagram">Perfil de Instagram</a>
+                    <a href="https://www.instagram.com/juangarciaph_/" class="boton-instagram">Perfil de Instagram</a>
                 </div>
             </section>
             <section id="formulario-contacto">
@@ -66,6 +66,28 @@
                 <p class="parrafo-seccion">
                     Si desea contactar conmigo de forma directa, puedes hacerlo mediante el siguiente formulario:
                 </p>
+                <!--formulario de contacto. Pedimos nombre-->
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre completo: <br></label>
+                    <input type="text" id="nombre" name="nombre" class="campo-texto" required>
+                </div>
+                <!--pedimos el correo electrónico-->
+                <div class="grupo-formulario">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" class="campo-texto" required>
+                </div>
+                <!--pedimos un asunto-->
+                <div class="grupo-formulario">
+                    <label for="asunto">Asunto: <br></label>
+                    <input type="text" name="asunto" id="asunto" class="campo-texto">
+                </div>
+                <!--ahora pedimos el mensaje-->
+                <div class="grupo-formulario">
+                    <label for="mensaje">Mensaje: <br></label>
+                    <textarea name="mensaje" id="mensaje" rows="5" class="campo-texto" required>Introduzca aquí su mensaje.</textarea>
+                </div>
+                <!--boton de envio-->
+                <button type="submit" class="boton-principal">Enviar mensaje <br></button>
             </section>
           
 
