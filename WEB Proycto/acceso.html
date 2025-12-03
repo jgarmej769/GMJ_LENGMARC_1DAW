@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto Juan García Photography</title>
+    <title>Área de Clientes</title>
     <link rel="stylesheet" href="web.css">
 </head>
-
 <body>
-    <!-- Copiamos el encabezado del inicio-->
    <div id="contenedor-principal" class="contenedor-central">
 
         <!-- CABECERA PRINCIPAL -->
@@ -41,67 +38,48 @@
             </nav>
         </header>
 
-        <!-- CONTENIDO PRINCIPAL -->
         <main class="contenedor-central">
 
-            <!--BLOQUE PRINCIPAL-->
-            <section id="contacto" id="seccion-contacto">
-                <h2 class="titulo-seccion">CONTACTO</h2>
+            <section id="inicio-de-sesion"> <!--Creamos un área de clientes, NO FUNCIONAL, que emula un espacio donde el cliente registrado por el propietario (yo) tuviera acceso a diversas opciones-->
+                <h2 class="titulo-seccion">ÁREA DE CLIENTES</h2>
                 <p class="parrafo-seccion">
-                    Puedes contactar conmigo a mediante:
-                <ul class="contacto">
-                    <li>Email: juangarciaph.00@gmail.com</li>
-                    <li>Teléfono de contacto: 000 00 00 00</li>
-                </ul>
+                    ¡Bienvenido al Área de Clientes! Para poder acceder a este área será imprescindible haber sido dado de alta por el propietario. 
                 </p>
-            </section>
-            <section>
-                <h2 class="titulo-seccion">REDES SOCIALES</h2>
-                <p class="parrafo-seccion">
-                    De igual forma, mi principal muestra de trabajo la podrás encontrar en mi perfil de Instagram:
-                </p>
-                <div class="contenedor-perfil">
-                    <a href="https://www.instagram.com/juangarciaph_/" class="boton-instagram">Perfil de Instagram</a>
-                </div>
-            </section>
-            <section id="formulario-contacto">
-                <h2 class="titulo-seccion">FORMULARIO DE CONTACTO</h2>
-                <p class="parrafo-seccion">
-                    Si desea contactar conmigo de forma directa, puedes hacerlo mediante el siguiente formulario:
+
+                <p class="parrafo-letra-chica">
+                    RECORDATORIO: El propietario es el único usuario que puede registrarle, si ha contratado algún servicio y su registro no ha sido efectuado, por favor póngase en contacto en el propietario mediante el formulario de contacto 
+                    habilitado en la sección "Contacto". 
                 </p>
                 <!--formulario de contacto. Pedimos nombre-->
                 <div class="grupo-formulario">
-                    <label for="nombre">Nombre completo: <br></label>
-                    <input type="text" id="nombre" name="nombre" class="campo-texto" required>
+                    <label for="usuario">Usuario: <br></label>
+                    <input type="text" id="usuario" name="usuario" class="campo-texto" required>
                 </div>
                 <!--pedimos el correo electrónico-->
                 <div class="grupo-formulario">
                     <label for="email">Correo electrónico</label>
                     <input type="email" id="email" name="email" class="campo-texto" required>
                 </div>
-                <!--pedimos un asunto-->
+                <!--contraseña-->
                 <div class="grupo-formulario">
-                    <label for="asunto">Asunto: <br></label>
-                    <input type="text" name="asunto" id="asunto" class="campo-texto">
-                </div>
-                <!--ahora pedimos el mensaje-->
-                <div class="grupo-formulario">
-                    <label for="mensaje">Mensaje: <br></label>
-                    <textarea name="mensaje" id="mensaje" rows="5" class="campo-texto"
-                        required>Introduzca aquí su mensaje.</textarea>
+                    <label for="asunto">Contraseña: <br></label>
+                    <input type="password" name="asunto" id="asunto" class="campo-texto" required>
                 </div>
                 <!--boton de envio-->
-                <button type="submit" class="boton-principal">Enviar mensaje <br></button>
+                <button type="submit" class="boton-principal">Acceder<br></button>
+                <p class="parrafo-letra-chica">¿HA OLVIDADO SU CONTRASEÑA? Si es así, contacte con soporte desde la sección "Contacto" con el asunto PASSWORD y le responderemos a la mayor brevedad.</p>
             </section>
 
 
         </main>
 
-    <!-- PIE DE PÁGINA -->
-    <footer class="pie-pagina">
-        <p>Portafolios Juan García | Todos los derechos reservados &copy; 2025 | @juangarciaph_</p>
-    </footer>
-    </div>
-</body>
 
+
+         <!-- PIE DE PÁGINA -->
+        <footer class="pie-pagina">
+            <p>Portafolios Juan García | Todos los derechos reservados &copy; 2025 | @juangarciaph_</p>
+        </footer>
+    </div>
+    
+</body>
 </html>
