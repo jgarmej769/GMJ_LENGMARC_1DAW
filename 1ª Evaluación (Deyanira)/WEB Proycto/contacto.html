@@ -18,7 +18,7 @@
                 <!-- LOGO Y TÍTULO -->
                 <div class="logo-seccion">
                     <!-- LOGO COLOCADO CON AYUDA DE MANUALES ONLINE -->
-                    <img src="firma.png" alt="Logo del Portafolio" class="logo-imagen">
+                    <img src="img/general/firma.png" alt="Logo del Portafolio" class="logo-imagen">
                     <h1 class="titulo-portafolio">Juan García Fotografía</h1>
                 </div>
 
@@ -76,8 +76,19 @@
                 </div>
                 <!--pedimos el correo electrónico-->
                 <div class="grupo-formulario">
-                    <label for="email">Correo electrónico</label>
+                    <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" class="campo-texto" required>
+                </div>
+                <!--colocamos un desplegable paraacumplir losrequisitos-->
+                <div class="grupo-formulario">
+                    <label for="asunto-predefinido">Asunto Predefinido:</label>
+                    <select name="asunto-predefinido" id="asunto-predefinido" class="campo-texto" required>
+                        <option value="seleccione">--SELECCIONE UNA OPCIÓN--</option>
+                        <option value="contacto-soporte">Contactar con soporte</option>
+                        <option value="reestablecer">Reespablecer Contraseña</option>
+                        <option value="registro">Solicitar registro</option>
+                        <option value="otro">Otro asunto</option>
+                    </select>
                 </div>
                 <!--pedimos un asunto-->
                 <div class="grupo-formulario">

@@ -19,7 +19,7 @@
      background-color: #222222;
      padding: 16px 0;
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fondoencabezado.JPG');
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/general/fondoencabezado.JPG');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -149,12 +149,13 @@
      font-size: 18px;
      color: #aaaaaa;
      margin-bottom: 24px;
+     text-align: justify;
  }
 
- .parrafo-letra-chica{
-    font-size: 11px;
-    color: #aaaaaa;
-    margin-bottom: 24px;
+ .parrafo-letra-chica {
+     font-size: 11px;
+     color: #aaaaaa;
+     margin-bottom: 24px;
  }
 
  .contenedor-condiciones {
@@ -187,6 +188,29 @@
      color: #f0f0f0;
      margin-bottom: 24px;
 
+ }
+
+ .entrada-perfil {
+     display: flex;
+     align-items: flex-start;
+     gap: 40px;
+     padding: 20px 0;
+ }
+ .columna-texto {
+     flex-basis: 60%;
+     flex-grow: 1;
+ }
+ .columna-foto {
+     flex-basis: 20%;
+     flex-grow: 1;
+     overflow: hidden;
+     border-radius: 8px;
+ }
+ .imagen-perfil {
+     width: 100%;
+     height: auto;
+     display: block;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
  }
 
  .boton-instagram {
@@ -232,6 +256,7 @@
      color: #f0f0f0;
      transition: border-color 0.3s ease;
  }
+
  .campo-texto:focus {
      border-color: #f1c40f;
      outline: none;
@@ -261,6 +286,7 @@
      border-radius: 6px;
      width: 500px;
  }
+
  .contenedor-horizontal {
      position: relative;
      width: 100%;
@@ -268,7 +294,7 @@
      overflow: hidden;
      background-color: #111111;
  }
- 
+
  .contenedor-vertical {
      position: relative;
      width: 100%;
@@ -278,7 +304,7 @@
  }
 
  .imagen-portafolio {
-     /* Uso de "position: absolute" */
+     /* Uso de absolute" */
      position: absolute;
      top: 0;
      left: 0;
@@ -289,7 +315,6 @@
  }
 
  .pie-foto {
-     /* Uso de "position: absolute" */
      position: absolute;
      bottom: 0;
      left: 0;
@@ -302,8 +327,8 @@
      font-size: 14px;
  }
 
-  #inicio-de-sesion{
-    max-width: 600px;
+ #inicio-de-sesion {
+     max-width: 600px;
      margin: 0 auto;
      margin-top: 40px;
      padding: 20px;
