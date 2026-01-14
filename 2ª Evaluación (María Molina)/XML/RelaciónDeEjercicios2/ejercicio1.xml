@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <informacion>
+            <nombre>Real Betis</nombre>
+            <ciudad>Sevilla</ciudad>
+            <entrenador>Pellegrinni</entrenador>
+        </informacion>
+        <jugador>
+            <nombre>Isco</nombre>
+            <posicion>Defensa</posicion>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador>
+            <nombre>Martínez</nombre>
+            <posicion>Central</posicion>
+            <nacionalidad>Uruguayo</nacionalidad>
+        </jugador>
+    </equipo>
+
+    <equipo>
+        <informacion>
+            <nombre>España</nombre>
+            <ciudad>Madrid</ciudad>
+            <entrenador>Luis de la Fuente</entrenador>
+        </informacion>
+        <jugador>
+            <nombre>Casillas</nombre>
+            <posicion>Portero</posicion>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador>
+            <nombre>Puyol</nombre>
+            <posicion>Medio</posicion>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+    </equipo>
+
+    <equipo>
+        <informacion>
+            <nombre>Real Marid</nombre>
+            <ciudad>Madrid</ciudad>
+            <entrenador>Mauro</entrenador>
+        </informacion>
+        <jugador>
+            <nombre>Juan</nombre>
+            <posicion>Portero</posicion>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador>
+            <nombre>Jorge</nombre>
+            <posicion>Defensa</posicion>
+            <nacionalidad>Salvadoreño</nacionalidad>
+        </jugador>
+    </equipo>
+</equipos>

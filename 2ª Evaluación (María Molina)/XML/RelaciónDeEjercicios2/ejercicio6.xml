@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    
+    <planta>
+        <nombre-cientifico>Acer monspessulanum</nombre-cientifico>
+        <nombre-comun>Arce de Montpellier, Arce menor</nombre-comun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <forma-y-estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje
+colgante</forma-y-estructura>
+        <color-en-primavera>Haz verde brillante, envés verde blanquecino</color-en-primavera>
+        <resistencia-a-las-heladas>Heladas fuertes (hasta -15oC)</resistencia-a-las-heladas>
+    </planta>
+    <planta>
+        <nombre-cientifico>Olea europea</nombre-cientifico>
+        <nombre-comun>Olivo</nombre-comun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>De 8 a 15 metros</altura>
+        <forma-y-estructura>Copa irregular. Tronco principal irregular con bifurcaciones.Ramaje
+tortuoso</forma-y-estructura>
+        <color-en-primavera>Haz verde oscuro, envés verde plateado</color-en-primavera>
+        <resistencia-a-las-heladas>Heladas medias (hasta -10oC)</resistencia-a-las-heladas>
+    </planta>
+    <planta>
+        <nombre-cientifico>Platanus orientalis</nombre-cientifico>
+        <nombre-comun>Platano</nombre-comun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 20 a 25 metros</altura>
+        <forma-y-estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma-y-estructura>
+        <color-en-primavera>Haz verde medio, enves verde claro</color-en-primavera>
+        <color-en-otonio>Ocre</color-en-otonio>
+        <resistencia-a-las-heladas>Heladas fuertes (hasta -20oC)</resistencia-a-las-heladas>
+    </planta>
+    <planta>
+        <nombre-cientifico>Quercus ilex</nombre-cientifico>
+        <nombre-comun>Encina</nombre-comun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>En torno a 25 metros</altura>
+        <forma-y-estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje
+tortuoso</forma-y-estructura>
+        <color-en-primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés
+plateado</color-en-primavera>
+        <resistencia-a-las-heladas>Heladas fuertes (hasta -15oC)</resistencia-a-las-heladas>
+    </planta>
+</catalogo>

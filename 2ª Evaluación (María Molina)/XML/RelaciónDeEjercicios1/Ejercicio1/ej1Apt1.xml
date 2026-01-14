@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frutas>
+    <fruta> <!--debemos_retirar_los_espacios_de_las_etiquetas-->
+        <nombre>cereza</nombre>
+        </fruta>
+    <fruta>
+        <nombre>naranja</nombre>
+    </fruta>
+</frutas>
